@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Join Now</title>
+<link rel="stylesheet" href="joinnow.css"> <!-- You can link your CSS file here -->
+</head>
+<body>
+
+<h1>Join Now</h1>
+
+<form action="#" method="post">
+  
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName" required><br><br>
+  
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName" required><br><br>
+  
+  <label for="mobNumber">Mobile Number:</label>
+  <input type="tel" id="mobNumber" name="mobNumber" pattern="[0-9]{10}" required><br><br>
+  
+  <label for="email">Email ID:</label>
+  <input type="email" id="email" name="email" required><br><br>
+  
+  <label for="timeSlot">Time Slot:</label>
+  <select id="timeSlot" name="timeSlot">
+    <option value="morning">Morning</option>
+    <option value="afternoon">Afternoon</option>
+    <option value="evening">Evening</option>
+  </select><br><br>
+  
+  <label for="startDate">Start Date:</label>
+  <input type="date" id="startDate" name="startDate" required><br><br>
+  
+  <label for="choosePlan">Choose Program:</label>
+  <select id="choosePlan" name="choosePlan">
+    <option value="plan1">Dance</option>
+    <option value="plan2">Cardio</option>
+    <option value="plan3">Heavy Weight</option>
+  </select><br><br>
+
+  <label for="choosePlan">Choose Plan:</label>
+  <select id="choosePlan" name="choosePlan">
+    <option value="plan1">Basic Package</option>
+    <option value="plan2">Premium Package</option>
+    <option value="plan3">Diamond Package</option>
+  </select><br><br>
+  
+  <input type="submit" value="Pay Now">
+  
+</form>
+
+<script src="script.js"></script> <!-- You can link your JavaScript file here -->
+
+</body>
+</html>
